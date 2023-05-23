@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatGPTActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MassageRecycleView"
+        android:layout_above="@+id/gap"
+        android:background="@color/RoyalBlue">
+    </androidx.recyclerview.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/gap"
+        android:padding="8dp"
+        android:background="@color/RoyalBlue">
+        <EditText
+            android:id="@+id/typing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/roundedcorner"
+            android:hint="Write Here"
+            android:padding="16dp">
+
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/sendbtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/app_name"
+            android:padding="8dp"
+            android:src="@drawable/baseline_send_24">
+
+        </ImageButton>
+
+    </RelativeLayout>
+</RelativeLayout>

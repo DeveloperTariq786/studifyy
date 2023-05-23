@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Studifyy</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="app_Id">ca-app-pub-4105817549704894~7807528551</string>
+    <string name="banner_ad_Id">ca-app-pub-4105817549704894/5163099630</string>
+    <string name="intertesial_Ad_Id">ca-app-pub-4105817549704894/2198859094</string>
+    <string name="collection_of_first_semister_papers">Collection of First semister Papers</string>
+</resources>

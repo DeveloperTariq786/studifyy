@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/FS"
+        android:title="First Semister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/SS"
+        android:title="Second Semister"
+        android:icon="@drawable/baseline_menu_book_24"
+        >
+    </item>
+    <item
+        android:id="@+id/TS"
+        android:title="Third Semister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/FourS"
+        android:title="Fourth Semister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/FifS"
+        android:title="FifthSemister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/SisS"
+        android:title="Sixth Semister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/SevenS"
+        android:title="Seventh Semister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/ES"
+        android:title="Eighth Semister"
+        android:icon="@drawable/baseline_menu_book_24">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="LogOut"
+        android:icon="@drawable/baseline_lock_24">
+    </item>
+</menu>
